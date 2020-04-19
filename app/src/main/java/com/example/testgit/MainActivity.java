@@ -10,11 +10,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        print();
+        print2();
         Cat c1;
     }
 
-    private void print() {
-        Toast.makeText(this, "print", Toast.LENGTH_SHORT).show();
+    private void print2() {
+        Toast.makeText(this, "print2", Toast.LENGTH_SHORT).show();
     }
 }
